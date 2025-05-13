@@ -14,4 +14,4 @@ After downloading, extract the .tar.gz archive to obtain a folder containing .xm
 Run [`xml_to_csv.py`](https://github.com/Fenneko0822/NLP34/blob/main/xml_to_csv.py) to convert all .xml files in the folder into a structured CSV file.
 
 ### Step 4: Check for Empty Rows
-Use [`double_check.py`](github.com/Fenneko0822/NLP34/blob/main/double_check.py) to verify that the resulting CSV file contains no rows with empty columns.
+Use [`double_check.py`](https://github.com/Fenneko0822/NLP34/blob/main/double_check.py) to verify that the resulting CSV file contains no rows with empty columns.
