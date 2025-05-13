@@ -23,7 +23,7 @@ def batch_process_pubmed_xmls(folder_path, output_csv_path):
             text = ' '.join([d['text'] for d in dicts_out if d.get('text') and d['text'].strip() != ''])
             
             # get the summary
-            summary = pp.parse_pubmed_xml(file_path).get('abstract', '')
+            summary = str(pp.parse_pubmed_xml(file_path).get('abstract') or '')
             
             # Only add to results if both text and summary are not empty
             if text.strip() and summary.strip():
