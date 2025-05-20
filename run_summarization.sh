@@ -15,6 +15,7 @@ python run_summarization.py \
     --model_name_or_path t5-base \
     --train_file ./train.csv \
     --validation_file ./val.csv \
+    --source_prefix "summarize: " \
     --text_column text \
     --summary_column summary \
     --do_train \
